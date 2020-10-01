@@ -25,3 +25,31 @@ in
     #"Renamed Columns"
     
 ```
+
+
+Custom formatting for Date dimension
+
+    Date: m/dd/yyyy (1/14/2008), used as a column to mark as date table
+    Year: yyyy (2008)
+    Year Month: mmm yyyy (Jan 2008)
+
+
+```
+Date =
+VAR FirstYear =           -- Customizes the first year to use
+    YEAR ( MIN ( Sales[Order Date]  ) )
+RETURN
+ADDCOLUMNS (
+    FILTER (
+        CALENDARAUTO (),
+        YEAR ( [Date] ) >= FirstYear
+    ),
+    "Year", DATE ( YEAR ( [Date] ), 12, 31 ),
+    "Year Month", EOMONTH ( [Date], 0 ),
+    "Month", FORMAT ( [Date], "mmm" ),
+    "Month Number", MONTH ( [Date] ),
+    "Day of Week", FORMAT ( [Date], "ddd" ),
+    "Day of Week Number", WEEKDAY ( [Date], 1 )
+)
+```
+
