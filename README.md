@@ -1,6 +1,4 @@
 # training
-Training materials
-
 
 Link to API:
 https://catalogue.data.govt.nz/api/3/action/datastore_search?resource_id=20b7c271-fd5a-4c9e-869b-481a0e2453cd
