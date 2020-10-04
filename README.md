@@ -1,5 +1,5 @@
-# training
-
+# Materials
+Link to repo:
 bit.ly/2HHhHE0
 
 Link to API:
@@ -27,6 +27,7 @@ in
 ```
 
 
+SOURCE: www.sqlbi.com
 Custom formatting for Date dimension
 
     Date: m/dd/yyyy (1/14/2008), used as a column to mark as date table
