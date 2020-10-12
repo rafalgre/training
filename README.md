@@ -2,7 +2,8 @@
 Link to repo:
 bit.ly/2HHhHE0
 
-
+Link to visual reference
+https://www.sqlbi.com/ref/power-bi-visuals-reference/
 
 
 Link to API:
