@@ -5,6 +5,8 @@ bit.ly/2HHhHE0
 Link to visual reference
 https://www.sqlbi.com/ref/power-bi-visuals-reference/
 
+TopoJSON maps from David Eldersveld:
+https://github.com/deldersveld/topojson/tree/master/countries/new-zealand
 
 Link to API:
 https://catalogue.data.govt.nz/api/3/action/datastore_search?resource_id=20b7c271-fd5a-4c9e-869b-481a0e2453cd
